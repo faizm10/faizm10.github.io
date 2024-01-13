@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faiz Mustansar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src=""> <!-- add logo or smth-->
+            <ul>
+                <li><a href="#" class="active">About</a></li>
+                <!-- <li><a href="#education-loc">Education</a></li> -->
+                <li><a href="#skills-loc">Skills</a></li>
+                <li><a href="#project-loc">Projects</a></li>
+                <li><a href="#contact-loc">Contact</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="landing">
+            <div class="intro">
+                <h3>My Name Is <Span>Faiz Mustansar</Span><br>Pursuing Bachelor of Computing Honours Degree<br>at
+                    University of Guelph</h3>
+                <button>Contact Me</button>
+            </div>
+            <div class="socials">
+                <div class="line"></div>
+                <a href="https://www.linkedin.com/in/faiz-mustansar-a9a435213" target="_blank">
+                    <i class="ri-linkedin-fill"></i>
+                </a>
+                <a href="https://github.com/faizm10" target="_blank">
+                    <i class="ri-github-fill"></i>
+                </a>
+                <a href="mailto:faizmustansar10@gmail.com" target="_blank">
+                    <i class="ri-mail-line"></i>
+                </a>
+            </div>
+
+
+
+        </div>
+    </header>
+
+    <section class="about">
+        <h1>About</h1>
+        <div class="description">
+            <!-- <div class="line"></div> -->
+            <p>Greetings! I'm Faiz M, currently pursuing a major in Computer Science with a minor in Sports & Event
+                Management at the University of Guelph.
+            </p>
+        </div>
+    </section>
+
+    <section class="education" id="education-loc">
+        <h1>Education</h1>
+        <div class="education-headline">
+            <div class="drop-down">
+                <h3 class="notable-courses" onclick="toggleDropdown('notable-courses')">
+                    Notable Courses 
+                    <i class="fas fa-chevron-down"></i>
+                </h3>
+                <ul class="course-list" id="notable-courses-list">
+                    <li><span>CIS2910</span> - Discrete Structures in Computing II
+                        <p>Study of discrete mathematical structures used in computer science.</p>
+                    </li>
+                    <li><span>CIS1050</span> - Web Design & Development
+                        <p>Introduction to web design principles and development techniques.</p>
+                    </li>
+                    <li><span>CIS2500</span> - Intermediate Programming
+                        <p>Advanced programming concepts and techniques.</p>
+                    </li>
+                    <li><span>STAT2040</span> - Statistics I
+                        <p>Introduction to statistical methods and data analysis.</p>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="drop-down">
+                <h3 class="extra-curricular" onclick="toggleDropdown('extra-curricular')">
+                    Extra-Curricular 
+                    <i class="fas fa-chevron-down"></i>
+                </h3>
+                <ul class="curricular-list" id="extra-curricular-list">
+                    <li><span>Google Developer Student Club</span> - Member
+                        <p>Participated in events and activities organized by the Google Developer Student Club.</p>
+                    </li>
+                    <li><span>Cybersecurity Club</span> - Member
+                        <p>Engaged in discussions and activities related to cybersecurity.</p>
+                    </li>
+                    <li><span>Intramurals</span> - Player
+                        <p>Active participation in competitive intramural sports, including ping pong, soccer (men's and mixed), and basketball.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    
+
+
+    <section class="skills" id="skills-loc">
+        <h1>Skills</h1>
+        <div class="cards">
+            <div class="skill-card">
+                <img src="python.svg" alt="">
+                <h2>Python</h2>
+            </div>
+            <div class="skill-card">
+                <img src="css.svg" alt="">
+                <h2>CSS</h2>
+            </div>
+            <div class="skill-card">
+                <img src="html.svg" alt="">
+                <h2>HTML</h2>
+            </div>
+            <div class="skill-card">
+                <img src="js.svg" alt="">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="skill-card">
+                <img src="linux-96.png" alt="">
+                <h2>Linux</h2>
+            </div>
+            <div class="skill-card">
+                <img src="mysql.svg" alt="">
+                <h2>MySQL</h2>
+            </div>
+            <div class="skill-card">
+                <img src="java.svg" alt="">
+                <h2>Java</h2>
+            </div>
+            <div class="skill-card">
+                <img src="c.svg" alt="">
+                <h2>C</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="project-loc">
+        <h1>Projects</h1>
+        <div class="project-cards">
+            <div class="project-card">
+                <img src="coming-soon.jpg" alt="">
+                <div class="overlay">
+                    <h3>Coming Soon!</h3>
+                    <p>iOS App In Progress</p>
+                    <button>See More -></button>
+                </div>
+            </div>
+            
+
+        </div>
+        <Button>View More</Button>
+
+    </section>
+        <!-- 
+    <section class="experience">
+        <div class="darker-div"></div>
+        <h1>Experience</h1>
+        <div class="lighter-div">
+            <div class="exp">
+                <h2>Enter New Experience</h2>
+                <div class="exp-desc">
+                    <h3>Location</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="exp">
+                <h2>2nd Experience</h2>
+                <div class="exp-desc">
+                    <h3>Locatiom</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+        <section class="contact-me" id="contact-loc">
+            <h1>Contact Me</h1>
+            <div class="contact">
+                <div class="contact-card">
+                    <i class="ri-message-3-line"></i>
+                    <p><a href="mailto:faizmustansar10@gmail.com">faizmustansar10@gmail.com</a></p>
+                </div>
+                <div class="contact-card">
+                    <i class="ri-phone-line"></i>
+                    <p><a href="tel:6476754143">647-675-4143</a></p>
+                </div>
+                <div class="contact-card">
+                    <i class="ri-linkedin-box-line"></i>
+                    <p><a href="https://www.linkedin.com/in/faiz-mustansar-a9a435213">LinkedIn</a></p>
+                </div>
+        </section>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
