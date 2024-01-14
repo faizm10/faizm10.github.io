@@ -15,17 +15,15 @@
 <body>
     <header>
         <nav>
-            <img src=""> <!-- add logo or smth-->
+            <img src="ProfilePic.png"> 
             <ul>
                 <li><a href="#" class="active">About</a></li>
-                <!-- <li><a href="#education-loc">Education</a></li> -->
+                <li><a href="#education-loc">Education</a></li>
                 <li><a href="#skills-loc">Skills</a></li>
                 <li><a href="#project-loc">Projects</a></li>
                 <li><a href="#contact-loc">Contact</a></li>
             </ul>
-
         </nav>
-
         <div class="landing">
             <div class="intro">
                 <h3>My Name Is <Span>Faiz Mustansar</Span><br>Pursuing Bachelor of Computing Honours Degree<br>at
@@ -44,18 +42,15 @@
                     <i class="ri-mail-line"></i>
                 </a>
             </div>
-
-
-
         </div>
     </header>
-
     <section class="about">
         <h1>About</h1>
         <div class="description">
-            <!-- <div class="line"></div> -->
-            <p>Greetings! I'm Faiz M, currently pursuing a major in Computer Science with a minor in Sports & Event
-                Management at the University of Guelph.
+            <p>
+                <span>Greetings!</span> I'm Faiz M, a first-year Computer Science major with a minor in Sports & Event Management at the University of Guelph.
+                Proficient in various programming languages and web development tools, I bring a diverse skill set to the table. I am currently working on couple of projects that 
+                showcases my technical expertise while simultaneously learning new languages and tools.
             </p>
         </div>
     </section>
@@ -65,7 +60,7 @@
         <div class="education-headline">
             <div class="drop-down">
                 <h3 class="notable-courses" onclick="toggleDropdown('notable-courses')">
-                    Notable Courses 
+                    Notable Courses
                     <i class="fas fa-chevron-down"></i>
                 </h3>
                 <ul class="course-list" id="notable-courses-list">
@@ -83,10 +78,10 @@
                     </li>
                 </ul>
             </div>
-    
+
             <div class="drop-down">
                 <h3 class="extra-curricular" onclick="toggleDropdown('extra-curricular')">
-                    Extra-Curricular 
+                    Extra-Curricular
                     <i class="fas fa-chevron-down"></i>
                 </h3>
                 <ul class="curricular-list" id="extra-curricular-list">
@@ -97,91 +92,71 @@
                         <p>Engaged in discussions and activities related to cybersecurity.</p>
                     </li>
                     <li><span>Intramurals</span> - Player
-                        <p>Active participation in competitive intramural sports, including ping pong, soccer (men's and mixed), and basketball.</p>
+                        <p>Active participation in competitive intramural sports, including ping pong, soccer (men's and
+                            mixed), and basketball.</p>
                     </li>
                 </ul>
             </div>
         </div>
-    
-    
-
-
-    <section class="skills" id="skills-loc">
-        <h1>Skills</h1>
-        <div class="cards">
-            <div class="skill-card">
-                <img src="./assets/python.svg" alt="">
-                <h2>Python</h2>
-            </div>
-            <div class="skill-card">
-                <img src="./assets/css.svg" alt="">
-                <h2>CSS</h2>
-            </div>
-            <div class="skill-card">
-                <img src="./assets/html.svg" alt="">
-                <h2>HTML</h2>
-            </div>
-            <div class="skill-card">
-                <img src="./assets/js.svg" alt="">
-                <h2>JavaScript</h2>
-            </div>
-            <div class="skill-card">
-                <img src="./assets/linux-96.png" alt="">
-                <h2>Linux</h2>
-            </div>
-            <div class="skill-card">
-                <img src="./assets/mysql.svg" alt="">
-                <h2>MySQL</h2>
-            </div>
-            <div class="skill-card">
-                <img src="./assets/java.svg" alt="">
-                <h2>Java</h2>
-            </div>
-            <div class="skill-card">
-                <img src="./assets/c.svg" alt="">
-                <h2>C</h2>
-            </div>
-        </div>
-    </section>
-
-    <section class="project" id="project-loc">
-        <h1>Projects</h1>
-        <div class="project-cards">
-            <div class="project-card">
-                <img src="./assets/coming-soon.jpg" alt="">
-                <div class="overlay">
-                    <h3>Coming Soon!</h3>
-                    <p>iOS App In Progress</p>
-                    <button>See More -></button>
+        <section class="skills" id="skills-loc">
+            <h1>Skills</h1>
+            <div class="cards">
+                <div class="skill-card">
+                    <img src="python.svg" alt="">
+                    <h2>Python</h2>
+                </div>
+                <div class="skill-card">
+                    <img src="css.svg" alt="">
+                    <h2>CSS</h2>
+                </div>
+                <div class="skill-card">
+                    <img src="html.svg" alt="">
+                    <h2>HTML</h2>
+                </div>
+                <div class="skill-card">
+                    <img src="js.svg" alt="">
+                    <h2>JavaScript</h2>
+                </div>
+                <div class="skill-card">
+                    <img src="linux-96.png" alt="">
+                    <h2>Linux</h2>
+                </div>
+                <div class="skill-card">
+                    <img src="mysql.svg" alt="">
+                    <h2>MySQL</h2>
+                </div>
+                <div class="skill-card">
+                    <img src="java.svg" alt="">
+                    <h2>Java</h2>
+                </div>
+                <div class="skill-card">
+                    <img src="c.svg" alt="">
+                    <h2>C</h2>
                 </div>
             </div>
-            
+        </section>
 
-        </div>
-        <Button>View More</Button>
-
-    </section>
-        <!-- 
-    <section class="experience">
-        <div class="darker-div"></div>
-        <h1>Experience</h1>
-        <div class="lighter-div">
-            <div class="exp">
-                <h2>Enter New Experience</h2>
-                <div class="exp-desc">
-                    <h3>Location</h3>
-                    <p>Description</p>
+        <section class="projects" id="projects-loc">
+            <h1>Projects</h1>
+            <div class="project-container">
+                <div class="project-card">
+                    <img src="coming-soon.jpg">
+                    <div class="project-details">
+                        <h3>iOS App</h3>
+                        <p>A brief description of this project will be released soon.</p>
+                        <a href="#" class="project-link">Explore Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="coming-soon.jpg">
+                    <div class="project-details">
+                        <h3>Project Two</h3>
+                        <p>A brief description of this project will be released soon.</p>
+                        <a href="#" class="project-link">Explore Project</a>
+                    </div>
                 </div>
             </div>
-            <div class="exp">
-                <h2>2nd Experience</h2>
-                <div class="exp-desc">
-                    <h3>Locatiom</h3>
-                    <p>Description</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
+        </section>
         <section class="contact-me" id="contact-loc">
             <h1>Contact Me</h1>
             <div class="contact">
