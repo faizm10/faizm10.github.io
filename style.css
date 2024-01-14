@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -9,8 +10,6 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-
-
 
 body {
   padding: 0;
@@ -38,11 +37,10 @@ header nav img {
   height: 56px;
   width: 56px;
   object-fit: contain;
+  border-radius: 50%;
+
 }
 
-header nav img:hover {
-  border-radius: 50%;
-}
 
 header nav ul {
   display: flex;
@@ -58,12 +56,12 @@ header nav ul li a {
   text-decoration: none;
   transition: all ease 0.5s;
 }
- header nav ul li a img {
-  height: 24px; 
-  width: auto;  
-  margin-right: 5px;  
-} 
 
+header nav ul li a img {
+  height: 24px;
+  width: auto;
+  margin-right: 5px;
+}
 
 header nav ul li a:hover {
   color: #fbfbfb;
@@ -134,52 +132,46 @@ header nav ul li .active {
 .socials i {
   color: #fbfbfb;
   font-size: 36px;
-
 }
-/* removes underline underneath social images */
-.socials a { 
+
+.socials a {
   text-decoration: none;
 }
 
 .about {
-  height: 50vh;
-  width: 100vw;
+  background-color: #3d3e42;
+  color: #fbfbfb;
   padding: 100px;
-  text-align: center; 
-
+  text-align: center;
 }
 
 .about h1 {
   font-size: 56px;
   font-weight: 700;
-  color: #fbfbfb;
   font-family: "Libre Baskerville", serif;
 }
 
 .about .description {
   display: flex;
-  align-items: start;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
 }
 
-.about .description .line {
-  height: 2.5px;
-  width: 400px;
-  background-color: #fec86a;
-  margin-right: 32px;
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
 }
-
-.about .description p {
-  color: #fbfbfb;
-  font-size: 20px;
-}
-
-.about .description p span {
+.about p span{
   color: #fec86a;
+  font-weight: 600;
+  font-size: 2rem;
 }
+
 
 section.education {
-  background-color: #3d3e42; /* Updated background color */
-  padding: 50px; /* Increased padding for better spacing */
+  background-color: #3d3e42;
+  padding: 50px;
 }
 
 .education h1 {
@@ -188,31 +180,31 @@ section.education {
   text-align: center;
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
-  margin-bottom: 20px; /* Add some margin for spacing */
+  margin-bottom: 20px;
 }
 
 .education-headline {
   display: flex;
   text-align: center;
   color: #fbfbfb;
-  flex-wrap: wrap; /* Adjust for smaller screens */
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px; /* Add gap between drop-downs */
+  gap: 20px;
 }
 
 .drop-down {
-  flex-basis: 48%; /* Adjust the width as needed */
-  background-color: #3d3e42; /* Updated background color */
-  padding: 20px; /* Increased padding for better readability */
+  flex-basis: 48%;
+  background-color: #3d3e42;
+  padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
   margin-bottom: 20px;
 }
 
 .notable-courses,
 .extra-curricular {
   background-color: #fec86a;
-  color: #34353b; 
+  color: #34353b;
   padding: 15px;
   margin: 0;
   border-radius: 8px 8px 0 0;
@@ -242,7 +234,7 @@ section.education {
 
 .notable-courses.active,
 .extra-curricular.active {
-  background-color: #3498db; 
+  background-color: #3498db;
   color: #fff;
 }
 
@@ -252,18 +244,16 @@ section.education {
   align-items: center;
   justify-content: center;
   padding: 50px 100px;
- }
- 
- 
- .skills h1 {
+}
+
+.skills h1 {
   font-size: 56px;
   font-weight: 700;
   color: #fbfbfb;
   font-family: "Libre Baskerville", serif;
- }
- 
- 
- .cards {
+}
+
+.cards {
   display: flex;
   align-items: center;
   width: 100%;
@@ -271,11 +261,10 @@ section.education {
   justify-content: center;
   margin-top: 50px;
   gap: 2.5vh;
- }
- 
- 
- .skill-card {
-  height: 12vw; /*20vw for height and width*/
+}
+
+.skill-card {
+  height: 12vw;
   width: 12vw;
   background-color: #3d3e42;
   border-radius: 20px;
@@ -288,136 +277,118 @@ section.education {
   transition: all ease 0.5s;
 }
 
- 
- 
- .skill-card:hover {
+.skill-card:hover {
   background-color: #fec86a;
- }
- 
- 
- .skill-card img {
+}
+
+.skill-card img {
   height: 3.5vw;
   width: 3.5vw;
   object-fit: contain;
- }
- 
- 
- .skill-card h2 {
+}
+
+.skill-card h2 {
   font-size: 24px;
   font-weight: 400;
   color: #fbfbfb;
- }
- 
-
-.project {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 50px 100px;
 }
 
-.project h1 {
-  font-size: 56px;
-  font-weight: 700;
-  color: #fbfbfb;
-  font-family: "Libre Baskerville", serif;
-}
-
-.project-cards {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  margin-top: 50px;
-  gap: 2.5vh;
-}
-
-.project-card {
-  position: relative;
-  height: 20vw; /*30 for height and width*/
-  width: 20vw;
-  background-color: #3d3e42;
-  border-radius: 20px;
-  overflow: hidden;
-  align-items: center;
-  justify-content: center;
-  gap: 2.5vh;
-  transition: all ease 0.5s;
-}
-
-.project-card img {
-  position: relative;
-  height: 20vw; /*30 for height and width*/
-  width: 20vw;
-  object-fit: cover;
-}
-
-.project-card .overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  gap: 2.5vh;
-  height: 30vw;
-  width: 30vw;
-  background-color: #34353ba2;
-  align-items: center;
-  justify-content: center;
-  padding: 24px;
-  opacity: 0;
-  transition: all ease 0.5s;
-}
-
-.project-card .overlay h3 {
-  color: #fbfbfb;
-  font-size: 24px;
-}
-
-.project-card .overlay p {
-  color: #fbfbfb;
-  font-size: 16px;
+.projects {
+  background-color: #3d3e42; /* Dark background color */
+  color: #ffffff; /* White text color */
+  padding: 80px 0;
   text-align: center;
 }
 
-.project-card .overlay button {
-  height: 36px;
-  width: 108px;
-  background-color: #fec86a;
-  border: 1px solid #fec86a;
-  border-radius: 8px;
-  color: #34353b;
-  font-size: 12px;
-  transition: all ease 0.5s;
-  cursor: pointer;
+.projects h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffffff; /* Highlight color */
+  font-family: "Libre Baskerville", serif;
 }
 
-.project-card .overlay:hover {
-  opacity: 1;
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.project button {
-  margin-top: 50px;
-  height: 48px;
-  width: 144px;
-  background-color: #fec86a;
-  border: 1px solid #fec86a;
-  border-radius: 8px;
-  color: #34353b;
+.project-card {
+  background-color: #333333; /* Slightly lighter dark background color */
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #2c3e50;
+}
+
+.project-details {
+  padding: 20px;
+  text-align: left;
+}
+
+.project-details h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff; /* White text color */
+}
+
+.project-details p {
   font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all ease 0.5s;
+  margin-bottom: 20px;
+  color: #dcdcdc; /* Lighter text color */
 }
 
-.project button:hover {
-  background-color: #cc9e4e;
+.project-link {
+  display: inline-block;
+  background-color: transparent; 
+  color: #fec86a;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  border: 2px solid #fec86a;
+
+  
 }
+
+.project-link:hover {
+  background-color: #fec86a;
+  color: #34353b;}
+
+ /* .view-more-btn {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #fec86a;
+  color: #ffffff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.view-more-btn:hover {
+  background-color: #dcb65a; 
+}  */
+
+
 
 .experience {
   display: flex;
   flex-direction: column;
-  /* height: 100vh; */
   width: 100vw;
   position: relative;
   align-items: center;
@@ -443,7 +414,6 @@ section.education {
 .lighter-div {
   background-color: #3d3e42;
   width: 100vw;
-  /* height: 90vh; */
   padding: 10vh;
   display: flex;
   flex-direction: column;
@@ -487,6 +457,7 @@ section.education {
   top: 55%;
   left: -5%;
 }
+
 .exp-desc h3 {
   color: #fbfbfb;
   font-size: 20px;
@@ -529,6 +500,7 @@ section.education {
   gap: 10px;
   margin-top: 7.5vh;
 }
+
 .contact-card a {
   color: black;
   text-decoration: none;
