@@ -294,8 +294,8 @@ section.education {
 }
 
 .projects {
-  background-color: #3d3e42; /* Dark background color */
-  color: #ffffff; /* White text color */
+  background-color: #3d3e42;
+  color: #ffffff;
   padding: 80px 0;
   text-align: center;
 }
@@ -314,7 +314,7 @@ section.education {
 }
 
 .project-card {
-  background-color: #333333; /* Slightly lighter dark background color */
+  background-color: #333333; 
   border-radius: 10px;
   overflow: hidden;
   margin: 20px;
@@ -342,13 +342,13 @@ section.education {
 .project-details h3 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #ffffff; /* White text color */
+  color: #ffffff; 
 }
 
 .project-details p {
   font-size: 16px;
   margin-bottom: 20px;
-  color: #dcdcdc; /* Lighter text color */
+  color: #dcdcdc;
 }
 
 .project-link {
@@ -368,23 +368,6 @@ section.education {
 .project-link:hover {
   background-color: #fec86a;
   color: #34353b;}
-
- /* .view-more-btn {
-  display: inline-block;
-  margin-top: 30px;
-  background-color: #fec86a;
-  color: #ffffff;
-  padding: 15px 30px;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
-}
-
-.view-more-btn:hover {
-  background-color: #dcb65a; 
-}  */
-
-
 
 .experience {
   display: flex;
