@@ -21,7 +21,8 @@
   class="layout-md text-black text-xl leading-tight font-light mb-16"
   id="faiz-is"
 >
-  <span class="g">is a</span> computer science student<span class="g">,</span><br />
+  <span class="g">is a</span> computer science student<span class="g">,</span
+  ><br />
   developer<span class="g">, and</span><br />
   learner<span class="g">.</span>
 </p>
@@ -29,16 +30,23 @@
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      I primarily study at the <a class="link" href="https://uoguelph.ca">University of Guelph</a>, pursuing my
-      Bachelor of Computing Honours Degree, and also take part-time courses at the <a class="link" href="https://uwaterloo.ca">University of Waterloo</a>.
+      I primarily study at the <a class="link" href="https://uoguelph.ca"
+        >University of Guelph</a
+      >, pursuing my Bachelor of Computing Honours Degree, and also take
+      part-time courses at the
+      <a class="link" href="https://uwaterloo.ca">University of Waterloo</a>.
     </p>
 
     <p>
-      I hope to develop better <em>web applications</em> and <em>software solutions</em> that can make a meaningful impact on people's lives.
+      I hope to develop better <em>web applications</em> and
+      <em>software solutions</em> that can make a meaningful impact on people's lives.
     </p>
 
     <p>
-      Towards that goal, I am passionate about <em>full-stack development</em>, which allows me to create complete solutions from frontend to backend; and <em>emerging technologies</em>, how we can leverage new tools and frameworks to build innovative applications.
+      Towards that goal, I am passionate about <em>full-stack development</em>,
+      which allows me to create complete solutions from frontend to backend; and
+      <em>emerging technologies</em>, how we can leverage new tools and
+      frameworks to build innovative applications.
     </p>
   </div>
 
@@ -60,21 +68,31 @@
 
   <div class="space-y-5">
     <p>
-      I am currently a <strong>Computer Science student</strong> at the <strong>University of Guelph</strong>, where I'm actively involved in various academic and extracurricular activities. I also take part-time courses at the <strong>University of Waterloo</strong> to expand my knowledge and skills.
+      I am currently a <strong>Computer Science student</strong> at the
+      <strong>University of Guelph</strong>, where I'm actively involved in
+      various academic and extracurricular activities. I also take part-time
+      courses at the <strong>University of Waterloo</strong> to expand my knowledge
+      and skills.
     </p>
 
     <p>
-      I enjoy playing intramural sports including ping pong, soccer, and basketball.
+      I enjoy playing intramural sports including ping pong, soccer, and
+      basketball.
     </p>
 
     <p>
-      My academic focus includes courses in <strong>Discrete Structures</strong>, <strong>Web Design & Development</strong>, <strong>Intermediate Programming</strong>, and <strong>Statistics</strong>. I'm passionate about learning new technologies and applying them to real-world problems.
+      My academic focus includes courses in <strong>Discrete Structures</strong
+      >, <strong>Web Design & Development</strong>,
+      <strong>Intermediate Programming</strong>, and
+      <strong>Statistics</strong>. I'm passionate about learning new
+      technologies and applying them to real-world problems.
     </p>
 
-    <p>Other interests: system design, full stack development, and artificial intelligence.</p>
+    <p>
+      Other interests: system design, full stack development, and artificial
+      intelligence.
+    </p>
   </div>
-
-  
 </div>
 
 <style lang="postcss">
