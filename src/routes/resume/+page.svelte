@@ -110,10 +110,6 @@
 </section>
 
 <style lang="postcss">
-  b {
-    @apply font-medium;
-  }
-
   ul {
     @apply list-disc pl-7 marker:text-neutral-400;
   }
