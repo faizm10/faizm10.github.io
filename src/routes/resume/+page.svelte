@@ -26,10 +26,15 @@
       <div class="text-neutral-500 mb-0.5">2023 — 2027</div>
     </div>
     <p class="byline">Part-time courses</p>
-    <p class="text-neutral-600">Additional studies to expand knowledge and skills</p>
+    <p class="text-neutral-600">
+      Additional studies to expand knowledge and skills
+    </p>
   </div>
 
-  <p>Currently pursuing my degree with a focus on computer science and web development.</p>
+  <p>
+    Currently pursuing my degree with a focus on computer science and web
+    development.
+  </p>
 
   <h4 class="font-medium mt-4 mb-1">Current Coursework:</h4>
   <ul>
@@ -51,7 +56,10 @@
   <ul>
     <li>
       <strong>Intramurals</strong> - Active Player
-      <p class="text-neutral-600 text-sm">Participating in competitive intramural sports including ping pong, soccer, and basketball</p>
+      <p class="text-neutral-600 text-sm">
+        Participating in competitive intramural sports including ping pong,
+        soccer, and basketball
+      </p>
     </li>
   </ul>
 </section>
@@ -91,8 +99,12 @@
   <div class="space-y-6">
     <div>
       <h4 class="font-medium">uoguelph.courses</h4>
-      <p class="text-neutral-600">Course search and review platform for University of Guelph students</p>
-      <p class="text-sm text-neutral-500">Technologies: Full-stack web development, modern UI/UX</p>
+      <p class="text-neutral-600">
+        Course search and review platform for University of Guelph students
+      </p>
+      <p class="text-sm text-neutral-500">
+        Technologies: Full-stack web development, modern UI/UX
+      </p>
     </div>
   </div>
 </section>
@@ -101,11 +113,14 @@
   <h2 class="heading2">Interests & Goals</h2>
 
   <p class="mb-4">
-    I'm passionate about system design, full stack development, and artificial intelligence. My goal is to create meaningful software solutions that can make a positive impact on people's lives.
+    I'm passionate about system design, full stack development, and artificial
+    intelligence. My goal is to create meaningful software solutions that can
+    make a positive impact on people's lives.
   </p>
 
   <p>
-    I enjoy learning new technologies and collaborating with other developers to build innovative applications.
+    I enjoy learning new technologies and collaborating with other developers to
+    build innovative applications.
   </p>
 </section>
 

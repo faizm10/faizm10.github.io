@@ -76,12 +76,15 @@
   </p>
 
   <p class="text-lg mb-4">
-    You'll see that I particularly like web development, full-stack applications, machine learning, and emerging technologies.
+    You'll see that I particularly like web development, full-stack
+    applications, machine learning, and emerging technologies.
   </p>
 
   <p class="text-lg">
     If you find something interesting,
-    <a class="link" href="mailto:faizmustansar10@gmail.com?subject=Software%20Projects"
+    <a
+      class="link"
+      href="mailto:faizmustansar10@gmail.com?subject=Software%20Projects"
       >let me know</a
     >!
   </p>
