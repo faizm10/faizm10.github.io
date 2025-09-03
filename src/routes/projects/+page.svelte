@@ -42,7 +42,7 @@
   let stars: Record<string, number> | null = null;
   onMount(async () => {
     const resp = await fetch(
-      "https://api.github.com/users/ekzhang/repos?per_page=100"
+      "https://api.github.com/users/faizm10/repos?per_page=100"
     );
     const repos = await resp.json();
     stars = {};
@@ -61,28 +61,27 @@
 </script>
 
 <Seo
-  title="Eric Zhang – Projects"
-  description="Open-source software projects in systems, web development, computer graphics, music, programming languages, machine learning, and more."
+  title="Faiz Mustansar – Projects"
+  description="Web development projects, full-stack applications, and software solutions built with modern technologies."
 />
 
 <section class="layout-md py-12">
-  <h2 class="heading2">Open Source</h2>
+  <h2 class="heading2">Projects</h2>
 
   <p class="text-lg mb-4">
-    I view building software in the open as a mode of <em
+    I view building software as a mode of <em
       class="font-serif text-[110%] leading-[100%]">creative exploration</em
     >. It lets me quickly act on inspiration, delve into new topics, and make
     tools that improve people's lives.
   </p>
 
   <p class="text-lg mb-4">
-    You'll see that I particularly like programming languages, distributed
-    systems, machine learning, computer graphics, music, and art.
+    You'll see that I particularly like web development, full-stack applications, machine learning, and emerging technologies.
   </p>
 
   <p class="text-lg">
     If you find something interesting,
-    <a class="link" href="mailto:ekzhang1@gmail.com?subject=Software%20Projects"
+    <a class="link" href="mailto:faizmustansar10@gmail.com?subject=Software%20Projects"
       >let me know</a
     >!
   </p>

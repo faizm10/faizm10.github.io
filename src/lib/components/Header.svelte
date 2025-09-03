@@ -3,7 +3,6 @@
 
   const links = [
     { name: "projects", href: "/projects" },
-    { name: "writing", href: "/writing" },
     { name: "resume", href: "/resume" },
   ];
 
@@ -24,7 +23,7 @@
   data-sveltekit-preload-code="eager"
 >
   <h1 class="font-bold text-black text-2xl mb-6">
-    <a href="/">Eric Zhang</a>
+    <a href="/">Faiz Mustansar</a>
     {#if pageTitle}
       <span class="page-title">
         <span class="text-neutral-400">—</span>
